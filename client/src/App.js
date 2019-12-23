@@ -1,15 +1,22 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
+import Saved from "./pages/Saved";
+import Nav from "./components/Nav";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div>
       <Router>
-        <Route exact path="/" component={Home} />
-     </Router>
-     </div>
+        <div>
+          <Nav />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/saved" component={Saved} />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }

@@ -1,0 +1,29 @@
+.navbar {
+    background-color:rgb(235, 186, 222);
+}
+
+.nav-item {
+    color:rgb(68, 43, 61);
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 30px;
+}
+
+.search-box {
+    /* height: 200px; */
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.book-wrapper {
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* .form-control {
+
+} */
