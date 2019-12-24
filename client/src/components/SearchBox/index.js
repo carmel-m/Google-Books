@@ -1,6 +1,6 @@
 import React from "react";
 
-function SearchBox() {
+function SearchBox(props) {
   return (
     <div className="container search-box border">
       <div className="form-group">
@@ -8,10 +8,11 @@ function SearchBox() {
         <input
           type="text"
           className="form-control"
+          onChange={props.onChange}
           id="search-input"
-          placeholder="" />
+          placeholder="title, author, genre, keyword..." />
       </div>
-      <button type="button" class="btn btn-outline-dark btn-sm">Search</button>
+      <button type="submit" className="btn btn-outline-dark btn-sm" onClick={props.onClick}>Search</button>
     </div>
   );
 }

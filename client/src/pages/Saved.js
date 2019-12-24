@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Jumbotron from "../components/Jumbotron";
 import BookWrapper from "../components/BookWrapper";
-import BookBox from "../components/BookBox";
+import BookCard from "../components/BookCard";
 
 
 class Saved extends Component {

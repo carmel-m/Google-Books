@@ -1,10 +1,9 @@
 import React from "react";
-// import BookBox from "../components/BookBox";
 
-function BookWrapper() {
+function BookWrapper(props) {
   return (
-    <div className="container book-wrapper border">
-<p>Books will go in here</p>
+    <div className="container book-wrapper">
+      <div className="row">{props.children}</div>
     </div>
   );
 }
