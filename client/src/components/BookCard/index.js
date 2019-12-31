@@ -22,7 +22,7 @@ function BookCard(props) {
             <a className="btn btn-outline-dark book-button" target="_blank" href={props.link}>
               Learn more  
             </a>
-            <a className="btn btn-outline-dark" target="_blank" href="">
+            <a className="btn btn-outline-dark" href="">
               Save book
             </a>
             
